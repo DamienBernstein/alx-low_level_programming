@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * Description: main-print out string to stdout.
+ * main: Entry point
+ *
  * Return: always 0 (success)
  */
 int main(void)
