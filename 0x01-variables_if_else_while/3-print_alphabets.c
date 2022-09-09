@@ -15,11 +15,11 @@ while (lw <= 'z')
 putchar(lw);
 lw += 1;
 }
-while (up <=  'z')
+while (up <=  'Z')
 {
-putchar(up)
+putchar(up);
 up += 1;
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
