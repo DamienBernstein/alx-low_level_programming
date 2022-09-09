@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int main(void)  
+int main(void)
 {
 int n;
 while (n < 10)
