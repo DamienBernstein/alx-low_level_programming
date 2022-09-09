@@ -1,42 +1,35 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * 
- * Description: print
+ * main - Prints 3 combination of numbers
  *
- *
+ * Return: Always (Success)
  */
+int main(void)
+{
+	int c, i, k;
 
-int main()
-{
-int n1 = 0, n2, n3;
+	for (c = '0'; c <= '9'; c++)
+	{
+		for (i = '0'; i <= '9'; i++)
+		{
+			for (k = '0'; k <= '9'; k++)
+			{
+				if (c < i && i < k)
+				{
+					putchar(c);
+					putchar(i);
+					putchar(k);
 
-while (n1 <= 9)
-{
-n2 = 0;
-while (n2 <= 9)
-{
-n3 = 0;
-while (n3 <= 9)
-{
-if (n1 != n2 && n1 < n2 && n2 != n3 && n2 <n3 )
-{
-putchar(n1 + 48);
-putchar(n2 + 48);
-putchar(n3 + 48);
-  
-if(n1 + n2 + n3 != 24)
-{
-putchar(',');
-putchar(' ');
+					if (c != '7')
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
-++n3;
-}
-++n2;
-}
-++n1;
-}
-putchar('\n');
-return (0);
-
