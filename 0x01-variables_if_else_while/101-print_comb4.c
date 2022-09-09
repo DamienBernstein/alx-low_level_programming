@@ -27,10 +27,7 @@ int main(void)
 						q == 56 &&
 						y == 57 &&
 						x == 57))
-					{
-						putchar(',');
-						putchar(' ');
-					}
+					}	
 					x++;
 				}
 				y++;
