@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - program that prints the alphabet in lowercase, followed by a new line  
- * you can only use puthchar 
+ * main-program that prints the alphabet in lowercase, followed by a new line 
+ * you can only use puthchar
  * Return: 0
  */
 
@@ -23,4 +23,4 @@ lw += 1;
 }
 putchar('\n');
 return (0);
-} 
+}
