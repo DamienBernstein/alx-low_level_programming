@@ -1,4 +1,4 @@
-#include <stdion.h>
+#include <stdio.h>
 
 /**
  * main - program that prints the alphabet in lowercase, followed by a new line  
@@ -18,7 +18,7 @@ lw += 1;
 else
 {
 putchar(lw);
-lw +=1;
+lw += 1;
 }
 }
 putchar('\n');
