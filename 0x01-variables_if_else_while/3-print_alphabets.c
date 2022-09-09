@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - program that prints the alphabet in lowercase, and then in uppercase
- * you can only use putchar 
+ * main-program that prints the alphabet in lowercase, and then in uppercase
+ * you can only use putchar
  * Return:0
  */
 
