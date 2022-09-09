@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
-*main - Prints all combinations of three digits with,
-* and space followed by new line
-*
-*Return: returns 0
+* main - Entry point 
+* codes for printing all possible combination of two d/t digits 
+* in ascending order and separated by a comma followed by a space 
+* Return: 0 success
 */
+
 int main(void)
 {
 	int digit1, digit2, digit3;
