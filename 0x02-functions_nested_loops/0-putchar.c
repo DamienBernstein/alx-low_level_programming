@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - program that prints Holberton.
+ * main - prints _putchar to the screen
  *
- * Return: int
+ * Return: 0
  */
 
 int main(void)
