@@ -13,9 +13,9 @@ int main(void)
 
   while (n < 5)
     {
-      _putchar(str_ptr[n]);
+      char(str_ptr[n]);
       n += 1;
     }
-  _putchar('\n');
+  char('\n');
   return (0);
 }
