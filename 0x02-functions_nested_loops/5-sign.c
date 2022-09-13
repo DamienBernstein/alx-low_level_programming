@@ -6,7 +6,7 @@
  * Return: 1, 0, -1
  */
 
-int print_sign(int n)
+int main(void)
 {
 if (n > 0)
 {
