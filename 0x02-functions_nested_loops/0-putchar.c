@@ -13,9 +13,9 @@ int main(void)
 
   while (n < 9)
     {
-      _putchar(str_ptr[n]);
+      putchar(str_ptr[n]);
       n += 1;
     }
-  _putchar('\n');
+  putchar('\n');
   return (0);
 }
