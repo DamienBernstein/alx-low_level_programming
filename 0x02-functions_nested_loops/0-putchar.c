@@ -2,7 +2,6 @@
 
 /**
  * main - prints _putchar to the screen
- *
  * Return: 0
  */
 
