@@ -2,6 +2,7 @@
 
 /**
  * main- write a function that print the alphabet in lower case.
+ * Description-you cant use more than two _putchar in the function.
  * return: 0
  */
 
