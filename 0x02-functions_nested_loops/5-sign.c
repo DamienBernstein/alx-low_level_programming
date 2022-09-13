@@ -1,35 +1,24 @@
-#include <limits.h>
-
 #include "main.h"
-
-
-
 /**
-
- * main - check the code for Holberton School students.
-
- *
-
- * Return: Always 0.
-
+ * print_sign -> prints sign based on condition
+ *@n: argument passed
+ * Return: 1, 0, -1
  */
 
-int main(void)
-  
+int print_sign(int n)
 {
-  
-int r;
-  
-r = print_sign(98);
-  
-if (r < 0)
-    
-r *= -1;
-  
-_putchar(r + '0');
-  
-_putchar('\n');
-  
+if (n > 0)
+{
+_putchar('+');  
+return (1);
+}
+else if (n == 0)
+{
+_putchar('0');
 return (0);
-  
+}
+else
+{
+_putchar('-');
+return (-1);
 }
