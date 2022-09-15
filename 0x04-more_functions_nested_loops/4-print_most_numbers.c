@@ -12,12 +12,9 @@ int n = 0;
   
 while (n <10)
 {
-_putchar(n + '0';\n):
+if(n != 2 || n != 4) 
+_putchar(n + '0');
 n += 1;
 }
-if(n <= 2 || n <= 4)
-_putchar(n);
-{
-else
-_continue;
+_putchar('\n');
 }
