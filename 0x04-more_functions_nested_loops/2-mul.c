@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
-* _2-mul-function multiplies two intergers.
-* @c: input value to check
-* Return: int
+*mul -function that multiplies two intergers.
+*@a: the first input value to chec
+*@b: the second input value to check
+*Return: int.
 */
 
 int mul(int a, int b)
 {
-printf(a * b);
+return(a * b);
 }  
