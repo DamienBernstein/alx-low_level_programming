@@ -2,7 +2,7 @@
 
 /**
  * print_line - function that draws a straight line in the terminal.
- * @c: input value to check.
+ * @n: input value to check.
  * Return: nothing.
  */
 
