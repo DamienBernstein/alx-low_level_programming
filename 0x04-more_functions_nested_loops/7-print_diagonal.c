@@ -14,7 +14,7 @@ int j = 0;
 while(i < n)
 {
 while(j <= i)
-}
+{
 if (j != i)
 _putchar(' ');
 else
@@ -23,8 +23,8 @@ j += 1;
 }
 _putchar('\n');
 i += 1;
-j += 0;
+j = 0;
 }
-if (n >= 0)
+if (n <= 0)
 _putchar('\n');
 }
