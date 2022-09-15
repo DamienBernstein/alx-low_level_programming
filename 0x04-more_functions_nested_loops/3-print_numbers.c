@@ -1,14 +1,19 @@
 #include "main.h"
 
 /**
- * print_numbers - function that prints the numbers from 0 to 9, followed by a new line. 
- * @c: input value to check
- * Return: int 
+ * print_numbers - function that prints the numbers, from 0 to 9.
+ *
+ * Return: nothing.
  */
 
 void print_numbers(void)
 {
-_putchar("c <= 0 && c <= 9\n" );
-}
-return (0);
+	int n = 0;
+
+	while (n < 10)
+	{
+		_putchar(n + '0');
+		n += 1;
+	}
+	_putchar('\n');
 }
