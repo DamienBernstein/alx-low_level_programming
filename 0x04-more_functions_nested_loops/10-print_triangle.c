@@ -18,7 +18,7 @@ for(col = 0; col < size; col++)
 aux = (size - row) - 1;
 if (col < aux)
 _putchar(' ');
-else 
+else
 _putchar(35);
 }
 _putchar('\n');
