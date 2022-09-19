@@ -3,7 +3,8 @@
 
 /**
  * swap - function that swaps the values of two integers
- * @a, b: input value to check
+ * @a: input value to check
+ * @b: input value to check
  * return: nothing
  */
 
