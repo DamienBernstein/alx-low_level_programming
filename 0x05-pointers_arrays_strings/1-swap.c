@@ -9,9 +9,9 @@
 
 void swap_int(int *a, int *b)
 {
-*a = 42;
-*b = 98;
-putchar("a=%d, b=%d\n", *a, *b);
-swap_int(&*a, &*b);
-putchar("a=%d, b=%d\n", *a, *b);
+int aux;
+
+aux = *a;
+*a = *b;
+*b = aux;
 }
