@@ -1,12 +1,14 @@
 #include "main.h"
 
 /**
- *_puts - prints a string
- * @str: string to print
+ * _puts - prints a string to stdout followed by a new lne
+ * @str: params
  */
-
 void _puts(char *str)
 {
-char *str;
-_puts("char *str\n");
+int i = 0;
+
+for (i = 0; str[i] != '\0'; i++)
+_putchar(str[i]);
+_putchar('\n');
 }
