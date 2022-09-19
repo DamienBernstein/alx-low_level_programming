@@ -16,5 +16,5 @@ while(str[i] != '\0')
 putchar(str[i]);
 i += 1;
 }
-_putchar('\n');
+putchar('\n');
 }
