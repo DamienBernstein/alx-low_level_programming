@@ -9,11 +9,11 @@
 
 void reset_to_98(int *n)
 {
-int n;
+int *n;
 
-n = 8;
-_putchar("n=%d\n", n);
-reset_to_98(&n);
-_putchar("n=%d\n", n);
+*n = 8;
+_putchar("*n=%d\n", *n);
+reset_to_98(&*n);
+_putchar("*n=%d\n", *n);
 return (0);
 }
