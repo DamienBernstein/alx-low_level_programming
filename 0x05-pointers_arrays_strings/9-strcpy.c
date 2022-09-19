@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcpy - unction that copies the string pointed to by src,
+ * _strcpy - unction that copies the string pointed to by src,
  * including the terminating null byte (\0), to the buffer pointed to by dest.
  * @dest: input value that checks
  * @src: input value that checks
