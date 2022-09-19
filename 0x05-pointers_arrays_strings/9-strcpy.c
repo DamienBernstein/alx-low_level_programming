@@ -5,7 +5,7 @@
  * including the terminating null byte (\0), to the buffer pointed to by dest.
  * @dest: input value that checks
  * @src: input value that checks
- * return: char
+ * Return: char
  */
 
 char *_strcpy(char *dest, char *src)
