@@ -9,34 +9,34 @@
  */
 int main(void)
 {
-	int i, j, k, s;
+	int n, j, l, f;
 	char c[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char p[58];
 
 	srand(time(NULL));
-	while (s != 2772)
+	while (f != 2772)
 	{
-		i = k = s = 0;
-		while ((2772 - 122) > s)
+		n = l = f = 0;
+		while ((2772 - 122) > f)
 		{
 			j = rand() % 62;
-			p[i] = c[j];
-			s += c[j];
-			i++;
+			p[n] = c[j];
+			f += c[j];
+			n++;
 		}
-		while (c[k])
+		while (c[l])
 		{
-			if (c[k] == (2772 - s))
+			if (c[l] == (2772 - f))
 			{
-				p[i] = c[k];
-				s += c[k];
-				i++;
+				p[n] = c[l];
+				f += c[l];
+				n++;
 				break;
 			}
-			k++;
+			l++;
 		}
 	}
-	p[i] = '\0';
-	printf("%s", p);
+	p[n] = '\0';
+	printf("%f", p);
 	return (0);
 }
