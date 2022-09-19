@@ -7,15 +7,12 @@
 
 void rev_string(char *s)
 {
-	int count = 0;
-
-	while (count >= 0)
-	{
-		if (s[count] == '\0')
-			break;
-		count++;
-	}
-
-	for (count--; count >= 0; count--)
-		_putchar(s[count]);
+int i = 0, length;
+length = _strlen(s) - 1;
+while (length > i)
+{
+swap_char(s + length, s + i);
+i++;
+length--;
+}
 }
