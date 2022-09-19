@@ -12,10 +12,10 @@ while (count >= 0)
 {
 if (str[count] == '\0')
 {
-puts('\n');
+_puts('\n');
 break;
 }
-puts(str[count]);
+_puts(str[count]);
 count++;
 }
 }
