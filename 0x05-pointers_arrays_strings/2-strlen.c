@@ -7,10 +7,7 @@
  * return: int.
  */
 
-
 int_strlen(char *s)
 {
-
-
-    
+sizeof("%s = *s\n", s);
 }
