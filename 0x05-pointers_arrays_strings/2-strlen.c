@@ -9,5 +9,11 @@
 
 int_strlen(char *s)
 {
-sizeof("%s = *s\n", s);
+int i = 0;
+
+while (s[i] != '\0')
+{
+i += 1;
+}
+return (i);
 }
