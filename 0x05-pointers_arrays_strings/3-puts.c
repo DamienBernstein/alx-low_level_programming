@@ -4,17 +4,16 @@
 /**
  * _puts - function that prints a string, followed by a new line, to stdout.
  * @str: input value to check
- * Return: nothing 
+ * Return: nothing
  */
 
 void _puts(char *str)
 {
 int i;
 
-while (str[i] != '\0')
+for (i = 0; str[i] != '\0'; i++)
 {
-putchar(str[i]);
-i += 1;
+_putchar(str[i]);
 }
-putchar('\n');
+_putchar('\n');
 }
