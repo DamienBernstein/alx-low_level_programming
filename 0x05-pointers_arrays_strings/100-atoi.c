@@ -3,7 +3,7 @@
 /**
  * _atoi - function that convert a string to an integer.
  * @s: input value that checks
- * Return: int 
+ * Return: int
  */
 
 int _atoi(char *s)
@@ -32,5 +32,5 @@ i++;
 }
 }
 signo *= -1;
-return (n * signo);
+return (n *signo);
 }
