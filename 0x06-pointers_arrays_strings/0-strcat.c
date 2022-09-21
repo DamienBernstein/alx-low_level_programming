@@ -23,3 +23,4 @@ _putchar("After concatenates: ");
 _putchar("s1");
 _putchar('\n');
 return (0);
+ }
