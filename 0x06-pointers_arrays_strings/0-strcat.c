@@ -9,8 +9,8 @@
  
  char *_strcat(char *dest, char *src)
  {
- char s1[100] = "Hello!";
- char s2[] = "World";
+ char s1[100] = "dest";
+ char s2[] = "src";
  int length, i;
  
  length  = 0;
