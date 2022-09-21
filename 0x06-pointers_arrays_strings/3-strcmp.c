@@ -9,10 +9,19 @@
 
 int _strcmp(char *s1, char *s2)
 {
-char *s1 = "dest";
-char *s2 = "src";
-int size_t n;
-int size_t n(char *s1);
-strncmp("char *s1 == char *s2\n");
+int i = 0;
+int aux;
+while (*(s1 + 1) != '\0')
+{
+if (*(s1 + 1) > *(s2 + 1))
+aux = *(s1 + 1) - *(s2 + 1);
+return(aux);
+}
+else if *(s1 + 1) < *(s2 + 1)
+aux = *(s1 + 1) - *(s2 + 1);
+return(aux);
+}
+i += 1;
+}
 return (0);
 }
