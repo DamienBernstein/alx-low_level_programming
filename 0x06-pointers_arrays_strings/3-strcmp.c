@@ -2,9 +2,10 @@
 
 /**
  * _strcmp-function that compares two strings.
- * @dest: input value that will be compared.
- * @src: input value that will be compared.
- * return: int.
+ * 
+ * @s1: pointer to char source 1
+ * @s2: pointer to char source 2
+ * Return: int
  */
 
 int _strcmp(char *s1, char *s2)
@@ -15,11 +16,11 @@ while (*(s1 + 1) != '\0')
 {
 if (*(s1 + 1) > *(s2 + 1))
 aux = *(s1 + 1) - *(s2 + 1);
-return(aux);
+return (aux);
 }
 else if *(s1 + 1) < *(s2 + 1)
 aux = *(s1 + 1) - *(s2 + 1);
-return(aux);
+return (aux);
 }
 i += 1;
 }
