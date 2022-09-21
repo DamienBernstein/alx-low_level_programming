@@ -4,23 +4,21 @@
  * _strcat - function that concatenates two strings.
  * @dest: input value that checks
  * @src: input value that checks
- * Return: int 
+ * Return: char
  */
  
- char *_strcat(char *dest, char *src)
- {
- char s1[100] = "dest";
- char s2[] = "src";
- int length, i;
- 
- length  = 0;
- while ( s1[length] != '\0', i++; ++length) {
- s1[length] = s2[i];
- }
-
-s1[length] = '\0';
-_putchar("After concatenates: ");
-_putchar("s1");
-_putchar('\n');
-return (0);
- }
+char *_strcat(char *dest, char *src)
+{
+unsigned int i = 0;
+unsigned int j = 0;
+  
+while (*(dest + i) != '\0') 
+i++;
+while (*(src + j) != '\0')
+{
+*(dest + i) = *(src + j);
+i++;
+j++;
+}
+return (dest);
+}
