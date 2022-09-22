@@ -7,5 +7,9 @@
 
 void print_number(int n)
 {
-putchar("n");
+int i = 0;
+for (i = 0, i < n, i++)
+putchar(n);
+}
+_putchar("n");
 }
