@@ -11,16 +11,16 @@
 int _strcmp(char *s1, char *s2)
 {
 int i = 0;
-int aux;
+int strncmp;
 while (*(s1 + 1) != '\0')
 {
 if (*(s1 + 1) > *(s2 + 1))
-aux = *(s1 + 1) - *(s2 + 1);
-return (aux);
+strncmp = *(s1 + 1) - *(s2 + 1);
+return (strncmp);
 }
 else if *(s1 + 1) < *(s2 + 1)
-aux = *(s1 + 1) - *(s2 + 1);
-return (aux);
+strcnmp = *(s1 + 1) - *(s2 + 1);
+return (strncmp);
 }
 i += 1;
 }
