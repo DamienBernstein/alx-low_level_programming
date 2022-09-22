@@ -2,8 +2,8 @@
 
 /**
  * print_buffer-function that prints a buffer
- * @b:
- * @size:
+ * @b: buffer
+ * @size: size of the buffer
  * Return: nothing
  */
 
