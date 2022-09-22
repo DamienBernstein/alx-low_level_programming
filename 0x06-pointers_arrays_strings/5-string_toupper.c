@@ -7,7 +7,7 @@
  * Return: char.
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *ch)
 {
 int i = 0;
 while (*(ch + i) != '\0')
