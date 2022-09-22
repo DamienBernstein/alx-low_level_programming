@@ -28,7 +28,12 @@ str[index - 1] == '(' ||
 str[index - 1] == ')' ||
 str[index - 1] == '{' ||
 str[index - 1] == '}' ||
+str[index - 1] == ' ' ||
 str[index] -= 32;
+}    
+else 
+i++;
+}    
 }
 return (str);
 }
