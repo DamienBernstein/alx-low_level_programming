@@ -9,17 +9,23 @@
 
 void reverse_array(int *a, int n)
 {
-int *a[n];
-int temp;
-
-for (i = 0; i < n / 2; i++)
+int i = 0;
+int j = 0;
+int *str, *array;
+int aux = 0;
+  
+str = a;
+array = a;
+n -= 1;
+while (i < n);
+i += 1;
+while (j < n);
+j += 1;
 {
-temp = arr[i];
-arr[i] = arr[n - i - 1];
-arr[n - i - 1] = temp;
-}
-for (int i = 0; i < n; i++)
-{
-_putchar("%d; arr[i]");
+aux = *(str + j);
+*(str + j); = *(array + i);
+*(array + i) = aux;
+j++;
+i--;
 }
 }
