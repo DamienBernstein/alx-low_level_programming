@@ -5,7 +5,7 @@
  * @src: string that appends to dest.
  * @dest: input value that is to be copied of the destination.
  * @n: number of bytes to allocate.
- * Return: return. 
+ * Return: return.
  */
 
 char *_strncpy(char *dest, char *src, int n)
