@@ -19,7 +19,7 @@ strncmp = *(s1 + 1) - *(s2 + 1);
 return (strncmp);
 }
 else if *(s1 + 1) < *(s2 + 1)
-strcnmp = *(s1 + 1) - *(s2 + 1);
+strncmp = *(s1 + 1) - *(s2 + 1);
 return (strncmp);
 }
 i += 1;
