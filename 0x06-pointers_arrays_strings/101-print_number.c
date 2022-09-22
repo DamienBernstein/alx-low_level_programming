@@ -7,8 +7,5 @@
 
 void print_number(int n)
 {
-write ("n");
-if (n = 0; n < 0; n++);
-}
-putchar('\n');
+putchar("n");
 }
