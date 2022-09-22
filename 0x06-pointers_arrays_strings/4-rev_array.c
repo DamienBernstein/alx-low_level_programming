@@ -19,7 +19,7 @@ array = a;
 n -= 1;
 while (i < n)
 i += 1;
-while (j < n)
+while (j <= i)
 j += 1;
 {
 aux = *(str + j);
