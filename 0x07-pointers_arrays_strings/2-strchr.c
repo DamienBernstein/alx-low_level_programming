@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strchr - function that locates a character in a string.
- * @s: string
- * @c: character
- * Return: a pointer to a string
+ * _strchr - returns a pointer to the first occurrence
+ * @s: string targeted
+ * @c: character targeted
+ * Return: returns pointer to first occurrence of c
  */
 
 char *_strchr(char *s, char c)
