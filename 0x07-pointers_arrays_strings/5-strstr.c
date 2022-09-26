@@ -28,5 +28,5 @@ while (haystack[i] == needle[i])
 }
 haystack++;
 }
-return('\0');
+return ('\0');
 }
