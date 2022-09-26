@@ -9,16 +9,11 @@
 
 char *_strchr(char *s, char c)
 {
-if(char *s = c);
-{
-_putchar("c");
+int i;
+for (i = 0; (s[i] != c) && (s[i] != '\0'; i++)
+
+if (s[i] == c)
+return (s + i);
+else
+return NULL;
 }
-else 
-{
-_putchar("NULL"
-}
-_putchar("\n");
-}
-return (c);
-}
-  
