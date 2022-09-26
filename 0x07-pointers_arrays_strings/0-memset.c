@@ -5,16 +5,15 @@
  * @s: memory area
  * @b: byte
  * @n: number of bytes
- *
- * Return: int
+ * Return: new value of tagret 
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-unsigned int index = 0;
-unsigned char *memory = s, value = b;
-
-for (index = 0, index < n, index++)
-memory[index] = value;
-return (memory);
+while (n)
+{
+s[n -1] = b;
+n--;
+}
+return (s);
 }
