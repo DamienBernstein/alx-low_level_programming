@@ -10,10 +10,23 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-char *haystack = [];
-char *needle = [];
-char *result;
+int i;
 
-result = strstr(string1,string2);
-_putchar {"%s/n, result");
+if (*needle == 0)
+return (haystack);
+
+while (*haystack)
+{
+i = 0;
+
+if (haystack[i] == needle[i])
+return (haystack);
+i++;
+{
+while (haystack[i] == needle[i])
+}
+}
+haystack++;
+}
+return('\0');
 }
