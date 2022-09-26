@@ -5,7 +5,7 @@
  * @s: memory area
  * @b: byte
  * @n: number of bytes
- * 
+ *
  * Return: int
  */
 
