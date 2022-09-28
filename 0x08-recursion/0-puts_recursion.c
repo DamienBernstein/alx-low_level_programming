@@ -6,8 +6,8 @@
  * @s: string to be printed
  * Return: nothing.
  */
- 
- void _puts_recursion(char *s)
- {
- _putchar ("*s\n");
- }
+
+void _puts_recursion(char *s)
+{
+_putchar ("*s\n");
+}
