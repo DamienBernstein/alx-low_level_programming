@@ -13,5 +13,5 @@ if (n < 0)
 return (1);
 else
 return (1);
-return (n * is_prime_number(n - 1));
+return (n * is_prime_number(n + 1));
 }
