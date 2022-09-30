@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - adds positive numbers
- * @argc: number of arguements
- * @argv: array of arguements
- * Return: 0 if succes, 1 if failure
- */
+*main - adds positive numbers
+*@argc: number of arguments
+*@argv: array of arguments
+*Return: 0 on success, 1 on failure
+*/
 
 int main(int argc, char *argv[])
 {
@@ -17,12 +17,15 @@ for (i = 1; i < argc; i++)
 for (j = 0; argv[i][j] != '\0'; j++)
 {
 if (argv[i][j] < '0' || argv[i][j] > '9')
+{
 printf("Error\n");
 return (1);
 }
 }
+
 sum += atoi(argv[i]);
 }
+
 printf("%d\n", sum);
 
 return (0);
