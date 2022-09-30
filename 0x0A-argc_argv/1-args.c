@@ -2,8 +2,8 @@
 
 /**
  * main - prints number of arguements
- * @argc: arguement count
- * @argv: arguement vector
+ * @argc: number of arguements
+ * @argv: array of arguements
  * Return: the number of arguments
  */
 
