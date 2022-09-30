@@ -19,7 +19,5 @@ printf("%s", argv[count]);
 else
 break;
 }
-printf('\n');
-}
 return (0);
 }
