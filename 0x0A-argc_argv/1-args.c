@@ -1,11 +1,10 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * main - prints number of arguements thats been passed through it
+ * main - prints number of arguements
  * @argc: arguement count
  * @argv: arguement vector
- * Return: 0
+ * Return: the number of arguments
  */
 
 int main(int argc, char __attribute__((__unused)) *argv[])
