@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-**
+/**
 *main - prints the minimum number of coins to make change
 * for an amount of money
 *@argc: number of arguments
@@ -31,7 +31,7 @@ if ((cents - 10) >= 0)
 {
 cents -= 10;
 continue;
-}	
+}
 if ((cents - 5) >= 0)
 {
 cents -= 5;
