@@ -15,7 +15,7 @@ int count;
 for (count = 0; count < argc; count++)
 }
 if (argcv == 1)
-printf("%s", argv[count]);
+printf("%s\n", argv[count]);
 else
 break;
 }
