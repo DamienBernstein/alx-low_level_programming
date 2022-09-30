@@ -7,7 +7,7 @@
  * @argv: arguement vector
  * Return: int
  */
- 
+
 int main(int argc, char *argv[])
 {
 int count;
