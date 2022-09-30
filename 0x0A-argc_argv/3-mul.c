@@ -5,7 +5,7 @@
  * main - program that multiples two numbers
  * @argc: arguement count
  * @argv: arguement vector
- * Return: 0 
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
