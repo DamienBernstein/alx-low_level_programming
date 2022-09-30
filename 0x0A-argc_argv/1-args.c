@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - prints number of arguements
- * @argc: number of arguements
- * @argv: array of arguements
+ * main - prints the number of arguments
+ * @argc: number of arguments
+ * @argv:array of arguments
  * Return: the number of arguments
  */
 
-int main(int argc, char __attribute__((__unused)) *argv[])
+int main(int argc, char __attribute__((__unused__)) *argv[])
 {
 printf("%d\n", argc - 1);
+
 return (0);
 }
