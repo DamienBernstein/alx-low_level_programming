@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * create_array - function that creates an array of chars,
- * and initializes it with a specific char
+ * create_array - function that creates an array of chars, and
+ * initializes it with a specific char
  * @size: size of array
  * @c: special character
  * Returns: pointer to an array, or NULL if it fails
