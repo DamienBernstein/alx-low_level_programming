@@ -29,7 +29,7 @@ array[i][j] = 0;
 else
 {
 while (i >= 0)
-}
+{
 free(array[i]);
 i--;
 }
