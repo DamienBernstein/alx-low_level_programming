@@ -2,9 +2,9 @@
 
 /**
  * argstostr - function that concatenates all the arguments of your program.
- * @ac: 
- * @av: 
- * Return: 
+ * @ac: count of args passed to function
+ * @av: array of arguements
+ * Return: pointer to the new string
  */
 
 char *argstostr(int ac, char **av)
