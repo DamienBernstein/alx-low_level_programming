@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * alloc_grid - function that returns a pointer to a 2 dimensional array of intergers
+ * alloc_grid - function that returns a pointer
+ * to a 2 dimensional array of intergers
  * @width: width of array
  * @height: height of array
  * Return: pointer to array
@@ -14,7 +15,7 @@ int i = 0, j;
 
 if (width == 0 || height == 0)
 return (NULL);
-array = (int**) malloc(sizeof(int *) * height);
+array = (int **) malloc(sizeof(int *) * height);
 if (array != NULL)
 {
 for (; i < height; i++)
@@ -27,8 +28,8 @@ array[i][j] = 0;
 }
 else
 {
-while ( i >= 0)
-}        
+while (i >= 0)
+}
 free(array[i]);
 i--;
 }
@@ -36,7 +37,7 @@ free(array);
 return (NULL);
 }
 }
-retrun (array);
+return (array);
 }
 else
 }
