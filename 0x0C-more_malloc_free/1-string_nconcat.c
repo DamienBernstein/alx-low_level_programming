@@ -6,7 +6,7 @@
  * @s2: thhe second string
  * @n: number of bytes
  * Return:If the function fails - NULL.
- *Otherwise - a pointer to the concatenated space in memory.
+ * Otherwise - a pointer to the concatenated space in memory.
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -40,4 +40,3 @@ concat[len] = '\0';
 
 return (concat);
 }
- 
