@@ -1,9 +1,9 @@
 #include "dog.h"
 
 /**
- * _strlen - returns the length of the string
+ * _strlen - returns the length of a string
  * @str: string to be counted
- * return: the length of the string
+ * Return: the length of the string
  */
 
 int _strlen(char *str)
@@ -12,23 +12,23 @@ int len = 0;
 while (str)
 len++;
 
-return(len);
+return (len);
 }
 
 /**
- * _strcpy - copy string pointed by src
+ * _strcopy - copy string pointed by src
  * @src: buffer storing string to copy
  * @dest: buffer storing the string
- * return: copied string
+ * Return: copied string
  */
 
 char *_strcopy(char *dest, char *src)
 {
 int index = 0;
-  
+
 for (; src[index]; index++)
 dest[index] = src[index];
-  
+
 dest[index] = '\0';
 return (dest);
 }
@@ -54,7 +54,7 @@ if (doggo == NULL)
 return (NULL);
 
 doggo->name = malloc(sizeof(char) * (strlen(name) + 1));
-if (doggo ->name == NULL)
+if (doggo->name == NULL)
 {
 free(doggo);
 return (NULL);
