@@ -1,11 +1,12 @@
 #include "dog.h"
 
-/**
- * _strlen - returns the length of a string
- * @str: string to be counted
- * Return: the length of the string
- */
 
+/**
+*_strlen - returns length of
+*a string
+*@str: string to be counted
+*Return: returns length of string
+*/
 int _strlen(char *str)
 {
 int len = 0;
@@ -15,23 +16,27 @@ len++;
 return (len);
 }
 
-/**
- * _strcopy - copy string pointed by src
- * @src: buffer storing string to copy
- * @dest: buffer storing the string
- * Return: copied string
- */
 
+/**
+*_strcopy - copy string pointed by src
+*into dest variable
+*@dest:buffer storing string copy
+*@src: buffer storing string to copy
+*Return:returns copied string
+*/
 char *_strcopy(char *dest, char *src)
 {
 int index = 0;
 
-for (; src[index]; index++)
+for (; src[index] ; index++)
 dest[index] = src[index];
 
 dest[index] = '\0';
 return (dest);
 }
+
+
+
 
 /**
 *new_dog - creates a new dog
@@ -41,7 +46,6 @@ return (dest);
 *Return: returns NULL in case
 *of failure
 */
-
 dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *doggo;
