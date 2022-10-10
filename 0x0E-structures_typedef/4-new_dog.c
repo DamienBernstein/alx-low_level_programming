@@ -61,7 +61,7 @@ return (NULL);
 }
 
 doggo->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
-if (doggo->name == NULL)
+if (doggo->owner == NULL)
 {
 free(doggo->name);
 free(doggo);
