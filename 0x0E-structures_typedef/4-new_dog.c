@@ -53,15 +53,15 @@ doggo = malloc(sizeof(dog_t));
 if (doggo == NULL)
 return (NULL);
 
-doggo->name = malloc(sizeof(char) * (strlen(name) + 1));
+doggo->name = malloc(sizeof(char) * (_strlen(name) + 1));
 if (doggo->name == NULL)
 {
 free(doggo);
 return (NULL);
 }
 
-doggo->owner = malloc(sizeof(char) * (strlen(owner) + 1));
-if (doggo == NULL)
+doggo->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
+if (doggo->name == NULL)
 {
 free(doggo->name);
 free(doggo);
