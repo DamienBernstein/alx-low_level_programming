@@ -15,7 +15,7 @@ while (ptr != NULL)
 {
 if (ptr->str != NULL)
 printf("[%d] %s\n", ptr->len, ptr->str);
-else 
+else
 printf("[0] (nil)\n");
 count += 1;
 ptr = ptr->next;
