@@ -20,6 +20,5 @@ printf("[0] (nil)\n");
 count += 1;
 ptr = ptr->next;
 }
-
 return (count);
 }
