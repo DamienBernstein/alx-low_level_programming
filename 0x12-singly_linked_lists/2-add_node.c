@@ -20,3 +20,18 @@ new_node->next = *head;
 *head = new_node;
 return (new_node);
 }
+
+/**
+ * _strlen - returns length of string
+ * @s: character of string
+ * Return: length of string
+ */
+
+int _strlen(const char *s)
+{
+int i;
+
+while (s[i] != 0)
+i++;
+return (i);
+}
