@@ -12,8 +12,8 @@ size_t elements = 0;
 
 while (h != NULL)
 {
-elements++;
 h = h->next;
+elements++;
 }
 return (elements);
 }
