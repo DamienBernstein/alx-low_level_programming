@@ -15,10 +15,9 @@
 		{
 			if (ptr->str != NULL)
 				printf("[%d]%s\n", ptr->str, ptr->len);
+			count += 1;
+			ptr = ptr->next;
 		}
 		return (count);
 	}
 }
-  
-  
- 
