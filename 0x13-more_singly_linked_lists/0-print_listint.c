@@ -10,11 +10,10 @@
  {
   const listint *ptr = h;
 		size_t count = 0;
-		
+
 		while (ptr != NULL)
 		{
-			if (ptr->str != NULL)
-				printf("[%d]%s\n", ptr->str, ptr->len);
+				printf("%d\n", ptr->len);
 			count += 1;
 			ptr = ptr->next;
 		}
