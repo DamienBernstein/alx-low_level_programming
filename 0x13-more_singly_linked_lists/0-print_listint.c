@@ -15,7 +15,7 @@ while (cursor != NULL)
 {
 printf("%d\n", cursor->n);
 count += 1;
-ptr = ptr->next;
+cursor = cursor->next;
 }
 return (count);
 }
