@@ -7,7 +7,7 @@
  * flip to get from one number to another.
  * @n: inital number
  * @m: final number
- * return: the number of flipped bits
+ * Return: the number of flipped bits
  */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
