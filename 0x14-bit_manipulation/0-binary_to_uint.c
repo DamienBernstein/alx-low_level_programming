@@ -1,47 +1,62 @@
 #include "main.h"
 
 /**
- * binary_to_uint - converts a binary to an unsigned int
- * @b: the binary number as a string
- *
- * Return: the converted value
+ * _pow_recursion - function that returns the value of x
+ * raised to the power of y
+ * @x: base number
+ * @y: pow number
+ * Return: int
  */
-unsigned int binary_to_uint(const char *b)
+
+int _pow_recursion(int x, int y)
 {
-unsigned int decimal = 0;
-int str_len = 0, base = 1;
-
-if (!check_valid_string(b))
-return (0);
-
-while (b[str_len] != '\0')
-str_len++;
-
-while (str_len)
-{
-decimal += ((b[str_len - 1] - '0') * base);
-base *= 2;
-str_len--;
-}
-return (decimal);
+	if (y < 0)
+		return (-1);
+	if (y == 0)
+		return (1);
+	return (x * _pow_recursion(x, y - 1));
 }
 
 /**
- * check_valid_string - checks if a string has only 0's and 1's
- * @b: string to be checked
+ * _strlen - function that returns the length of a string.
  *
- * Return: 1 if string is valid, 0 otherwise
+ * @s: pointer to an string
+ * Return: int
  */
-int check_valid_string(const char *b)
-{
-if (b == NULL)
-return (0);
 
-while (*b)
+int _strlen(const char *s)
 {
-if (*b != '1' && *b != '0')
-return (0);
-b++;
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		i += 1;
+	}
+	return (i);
 }
-return (1);
-}
+
+/**
+ * binary_to_uint - function that converts a binary number to an unsigned int
+ * @b: pointing to a string of 0 and 1 chars
+ * Return: the converted number, or 0 if
+ * there is one or more chars in the string b that is not 0 or 1
+ * b is NULL
+ */
+
+unsigned int binary_to_uint(const char *b)
+{
+	int len, exp = 0;
+	unsigned int res = 0;
+
+	if (b == NULL)
+		return (0);
+	len = _strlen(b);
+	while (len-- && len >= 0)
+	{
+		if (b[len] == '1')
+			res += _pow_recursion(2, exp);
+		else if (b[len] != '0')
+			return (0);
+		exp++;
+	}
+	return (res);
