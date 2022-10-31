@@ -29,7 +29,7 @@ char *buffer;
 	w = write(buffer, r, STDOUT_FILENO);
 
 	if (o == -1 || r == -1 || w == -1 || w != r)
-	{ 
+	{
 		free(buffer);
 		return (0);
 	}
